@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    cout<< "ievadi ph: ";
+    int ph;
+    cin>> ph;
+    
+    if (ph<7){
+    cout<<"skābe";
+    }
+    else if (ph>7){
+    cout<<"bāze";
+    }
+    else { 
+    cout<<"neitrāls";
+}
+}
