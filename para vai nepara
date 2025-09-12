@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    cout<< "ievadi skaitli";
+    int skaitlis;
+    cin>> skaitlis;
+    
+    if (skaitlis%2==0){
+    cout<<"pāra";
+    }
+    else { 
+    cout<<"nepāra";
+}
+}
