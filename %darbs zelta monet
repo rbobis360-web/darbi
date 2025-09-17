@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Esi sveicināts, dārgumu medniek! Kas Tev šoreiz gadījās ceļā?"<<endl;
+    cout << "Ievadi zelta monētu skaitu: ";
+    int sk;
+    cin >> sk;
+    
+    if (sk>0) {
+        cout << "Apsveicu! Tu atradi ";
+        cout << sk;
+        cout <<" zelta monētas";
+    }
+    else if (sk<0) {
+        cout << "Ak, nē! Tu iekriti lamatās un pazaudēji ";
+        cout << sk;
+        cout << " zelta monētas!";
+    }
+    else  {
+        cout << "Šī istaba bija tukša. Jāturpina meklējumi.";
+    }
+
+}
