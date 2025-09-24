@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int s1=0;
+    int s2=1;
+    int summa;
+    
+    int n;
+    cout << "ieraksti skaitli n: ";
+    cin >> n;
+
+    for(int i=0; i<n; i++) {
+    summa = s1+s2;
+    cout << s1 << " ";
+    s1=s2;
+    s2=summa;
+        
+    }
+
+}
