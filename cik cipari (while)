@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int summa;
+    
+    int n;
+    cout << "ieraksti skaitli n: ";
+    cin >> n;
+    
+    int cipars=0;
+
+    while(n !=0) {
+    cipars++;
+    n=n/10;
+
+    
+    }
+       cout<< cipars;
+
+}
