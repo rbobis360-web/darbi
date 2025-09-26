@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+        int izvele=0;
+    while (izvele < 1 || izvele > 3){
+
+    cout<<"Tu pamosties zem tilta. ko tu dari?"<<endl<<endl;
+    cout<<"1.Pabeidz lodi"<<endl;
+    cout<<"2.Celies un ej pasaulē"<<endl;
+    cout<<"3.Paguli vēl nedaudz"<<endl;
+    
+    cout<< "ieraksti ciparu (1-3): ";
+    cin>> izvele;
+    cout<<endl;
+    
+    if (izvele == 1){
+        cout<< "Tagad ir spēks celties un labot pasauli (pareizā izvele)"<<endl;
+    }
+    else if (izvele == 2){
+        cout<< "Tevi nobrauca smagais un tagad guli slimnica."<<endl;
+    }
+    else if (izvele == 3){
+        cout<< "Tevi pamodinaja remontdarbi bet juties labak."<<endl;
+    }
+    else {
+        cout<<"stulbeni ieraksti skaitli no 1-3";
+    }
+}
+int izvele2=0;
+    while (izvele2 < 1 || izvele2 > 2){
+ cout<< "ko daram? (1-2)"<<endl;
+ cout<< "1. ej uz majam"<<endl;
+ cout<< "2. ejam tortas"<<endl;
+cout<< "ieraksti ciparu (1-2): ";
+cin>> izvele2;
+cout<<endl;
+
+if  (izvele2 == 1){
+    cout<< "piedzivojum ir beidzies.";
+}
+else if  (izvele2 == 2){
+    cout<< "tevi nospieda torta.";
+}
+
+}
+}
