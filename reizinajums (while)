@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    int pirmais;
+    int otrais;
+    int reizinajums;
+    
+    cout << "ievadi 2ciparu skaitli ";
+    cin>>n;
+    reizinajums = n;
+    
+while (!(reizinajums <9)){
+pirmais=reizinajums%10;
+otrais=reizinajums/10;
+reizinajums = pirmais*otrais;
+cout<< reizinajums<<endl;
+}
+cout << reizinajums;
+}
