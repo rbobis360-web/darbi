@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+#include <vector>
+
+int sum_even_numbers(vector<int> a) {
+    int s=0;
+    for (int i=0; i<a.size();i++){
+         if (a[i]%2==0){
+             s=s+a[i];
+         }
+
+    }
+    
+return s;
+}
+int main(){
+    cout<<sum_even_numbers({2,3,4,5,6});
+}
