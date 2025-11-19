@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+#include <vector>
+
+int atrastmax(vector<int> s){
+int l;
+    for (l=0;l<s.size();l++){
+        if (l<s[l]){
+            l=s[l];
+        }
+    }
+        
+return l;
+}
+int main(){
+    cout<<atrastmax({3,5,9,2,8});
+}
