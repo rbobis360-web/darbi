@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+#include <vector>
+
+int aritmetiskaOperacija(int a, int b, string p){
+    if (p == "*"){
+        return a * b;
+    }
+    else if (p == "+"){
+        return a + b;
+    }
+    else if (p == "/"){
+        return a / b;
+    }
+    else if (p == "-"){
+        return a - b;
+    }
+    
+return a;
+}
+int main(){
+int rez = aritmetiskaOperacija(4, 2, "*");
+    cout << rez << endl;
+}
