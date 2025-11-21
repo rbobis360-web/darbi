@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+#include <vector>
+
+double average(vector<double> s={}){
+int i;
+double a;
+    for(i=0;i<s.size();i++){
+        a=a+s[i];
+    }
+return a/s.size();
+}
+int main(){
+    cout<<average({1,2});
+}
